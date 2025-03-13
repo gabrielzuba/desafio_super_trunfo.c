@@ -1,1 +1,98 @@
+#include <stdio.h>
+int main(){
 
+char estado;
+char codigo[10];
+char cidade[15];
+int populacao;
+float area;
+float pib;
+int turisticos;
+
+    printf("Dados da carta 1:\n");
+
+    printf("Digite a inicial do estado: \n");
+    scanf("%c", &estado);
+
+    printf("Digite o código do estado: \n");
+    scanf("%s", &codigo);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &cidade);
+
+    printf("digite a população da cidade: \n");
+    scanf("%i", &populacao);
+
+    printf("Digite o pib da cidade: \n");
+    scanf("%f", &pib);
+
+    printf("Digite a quantidade de pontos turisticos: \n");
+    scanf("%i", &turisticos);
+    
+                          
+    printf("carta 01:\n");
+    
+
+    printf("Inicial do estado: %c\n", estado);
+
+    printf("Código do estado: %s\n", codigo);
+
+    printf("Cidade: %s\n", cidade);
+
+    printf("População: %i\n", populacao);
+
+    printf("pib: %f\n", pib);
+    
+    printf("Pontos turisticos: %i\n", turisticos);
+
+
+    printf("Dados da carta 2:\n");
+    
+    char estadoo;
+    char codigoo[10];
+    char cidadee[15];
+    int populacaoo;
+    float areas;
+    float pibs;
+    int turisticoss;
+
+    printf("Digite a inicial do estado: \n");
+    scanf("%c", &estadoo);
+    
+    printf("Digite o código do estado: \n");
+    scanf("%s", &codigoo);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &cidadee);
+
+    printf("Digite a população da cidade: \n");
+    scanf("%i", &populacaoo);
+
+    printf("Digite o pib da cidade: \n");
+    scanf("%f", &pibs);
+
+    printf("Digite a quantidade de pontos turisticos: \n");
+    scanf("%i", &turisticoss);
+
+
+
+    printf("carta 2:\n");
+
+
+
+
+    printf("inicial do estado:%c\n", estadoo);
+
+    printf("Código do estado: %s\n", codigoo);
+
+    printf("Cidade: %s\n", cidadee);
+
+    printf("População: %i\n", populacaoo);
+
+    printf("pib: %f\n", pibs);
+
+    printf("Pontos turisticos: %i\n", turisticoss);
+
+
+    return 0;
+}
